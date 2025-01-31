@@ -62,14 +62,14 @@ nav ul li a{
     display: flex;
 }
 
-.container #texto-dev{
+.container .esquerda{
     height: 100%;
     width: 50%;
     display: flex;
     align-items: center;
 }
 
-.container #imagem-dev{
+.container .direita{
     height: 100%;
     width: 50%;
 }
@@ -90,4 +90,83 @@ nav ul li a{
 
 #imagem-dev img{
     object-fit: cover;
+}
+
+/* Trilha */
+
+#trilhas{
+    margin-top: 250px;
+}
+
+.container-trilha{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.container-trilha  .direita{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100%;
+    width: 50%;
+}
+
+.container-trilha h5{
+    font-size: 2.5em;
+    padding: 0 75px;
+}
+
+.container-trilha p{
+    font-size: 1.5em;
+    margin-top: 15px;
+    padding: 0 75px;
+}
+
+.container-trilha img{
+    width: 500px;
+    height: 430px;
+    object-fit: cover;
+    margin-top: 30px;
+    padding: 0 75px;
+}
+
+#coluna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.card-trilhas{
+    width: 560px;
+    height: 160px;
+    box-shadow: 0 0 15px #CEDEFF;
+}
+
+.card-trilhas .img-trilha{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    float: left;
+}
+
+.card-trilhas h4{
+    margin-top: 35px;
+    font-size: 1.2em;
+}
+
+.card-trilhas p{
+    font-size: 1em;
+}
+
+#icone{
+    background: var(--azul-claro);
+    color: var(--branco);
+    padding: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
 }
