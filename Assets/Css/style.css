@@ -53,3 +53,41 @@ nav ul li a{
     padding: 5px 10px;
     border-radius: 10px;
 }
+
+/* Principal */
+
+.container{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+}
+
+.container #texto-dev{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.container #imagem-dev{
+    height: 100%;
+    width: 50%;
+}
+
+#container-texto{
+    font-size: 4em;
+    padding: 0 50px;
+}
+
+#container-texto h1{
+    line-height: 75px;
+}
+
+#container-texto h5{
+    display: flex;
+    justify-content: end;
+}
+
+#imagem-dev img{
+    object-fit: cover;
+}
