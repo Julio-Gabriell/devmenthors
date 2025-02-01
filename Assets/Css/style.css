@@ -244,3 +244,39 @@ nav ul li a{
     margin: 75px 0 0 -250px;
     overflow: hidden;
 }
+
+/* Duvidas frequentes */
+
+#duvidas{
+    margin-top: 100px;
+}
+
+.card-duvida{
+    margin: 0 75px;
+    width: 715px;
+    height: 110px;
+    border-bottom: var(--preto) 1px solid;
+    border-top: var(--preto) 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-duvida h1{
+    height: 100%;
+    font-size: 2.5em;
+    margin: auto 0px;
+    padding: 10px 0 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.h1-responde{
+    margin-bottom: 50px;
+}
+
+.card-duvida img{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    padding: 10px;
+}
